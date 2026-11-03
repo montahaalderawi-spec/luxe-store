@@ -1,0 +1,37 @@
+.home-container {
+  height: calc(100vh - 70px); 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8f9fa; 
+  text-align: center;
+  padding: 20px;
+}
+.hero-content h1 {
+  font-size: 3rem;
+  color: #1a1a1a;
+  margin-bottom: 15px;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 30px;
+}
+.shop-now-btn {
+  display: inline-block;
+  background-color: #1a1a1a;
+  color: #f1c40f;
+  padding: 12px 30px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 30px;
+  transition: all 0.3s ease;
+}
+
+.shop-now-btn:hover {
+  background-color: #333;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
